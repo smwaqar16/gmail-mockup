@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gmail</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="images/bg.png">
+  <div class="googletext">Google</div>
+  <input type="text" name="username" size="80" maxlength="120" />
+
+  <button class="buttontop">
+   <img src="images/ic_search_black_24dp_2x.png">
+</button></a>
+  <div class="imgtop">
+    <img src="images/google.png"> &nbsp; &nbsp;
+    <img src="images/sss.png">
+  </div>
+  <hr>
+  <div class="gmailtext">
+    Gmail</div>
+  <button class="buttongmail">        
+<input id="remember" type="checkbox"></label>
+</button>
+  <button class="butreplay">  
+<img src="images/ic_replay.png">
+</button>
+  <button class="butMore">More</button>
+  <div class="don"></div>
+  1-50 of 187
+  <button class="butimg1"> <img src="images/ic_keyboard_arrow_left_black_24dp_2x.png">
+</button>
+  <button class="butimg2"> <img src="images/ic_keyboard_arrow_right_black_24dp_2x.png">
+</button>
+  <button class="butkeyboard"><img src="images/ic_keyboard_black_24dp_2x.png"> </button>
+  <button class="butsettings"><img src="images/ic_settings_black_24dp_2x.png"> </button>
+  <hr>
+
+  <button class="compose">COMPOSE  </button>
+ <ul class="list">
+
+    <li>Indox</li>
+    <li>Starre</li>
+    <li>Important</li>
+    <li>Sent Mail</li>
+    <li>Drafts</li>
+    <li>More</li>
+  </ul>
+  <hr class="hr1">
+  <div class="center" >
+    <ul class="tab">
+      <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Primary</a></li>
+      <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Paris')">Social</a></li>
+      <li><a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'Tokyo')">Promotions</a></li>
+    </ul>
+    <div id="London" class="tabcontent">
+    
+    
+    <table>                       
+
+<tr><input type="checkbox" name="vehicle1" value="Bike">
+  <td>1</td>
+</tr>
+<tr>
+  <td>2</td>
+</tr>
+<tr>
+  <td>3</td>
+</tr>
+<tr>
+  <td>4</td>
+</tr>
+<tr>
+  <td>5</td>
+</tr>
+<tr>
+  <td>6</td>
+</tr>
+
+
+    </table>
+
+
+
+
+
+
+
+    </div>
+    <div id="Paris" class="tabcontent">
+    </div>
+    <div id="Tokyo" class="tabcontent">
+    </div>
+    <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+
+document.getElementById("defaultOpen").click();
+</script>
+
+  </div>
+  </body>
+  </html>

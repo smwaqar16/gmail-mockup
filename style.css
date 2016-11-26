@@ -1,0 +1,189 @@
+body{
+        margin: -6px;
+    padding: 11px;
+}
+.googletext{
+      padding: 0px;
+    font-size: 38px;
+    color: rgb(118, 118, 118);
+    margin-top: auto;
+    display: inline-table;
+    width: 173px;
+        font-weight: 900;
+}
+input{
+    margin: -6px;
+    padding: 6px
+}
+.buttontop{
+    background-color:rgb(68, 133, 245);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+     border: 1px solid transparent;
+     width: 75px;
+     height: 32px;
+}
+img{
+    width: 24px;
+    height: 20px;
+    margin: -5px;
+}
+.imgtop{
+      
+        display: initial;
+       text-align: end;
+       margin: 395px;
+}
+
+.gmailtext{
+    margin: 10px;
+    font-size: 25px;
+    display: inline-table;
+        width: 135px;
+            font-weight: 900;
+}
+.buttongmail{
+              background-color: rgba(251, 251, 251);
+              width: 58px;
+              height: 32px;
+              margin: 14px;
+              padding: 10px;
+                  text-align: center;
+}
+.butreplay{
+        width: 68px;
+    height: 33px;
+    margin: 5px;
+    padding: 10px;
+        text-align: center;
+}
+.butMore{
+ margin: 14px;
+    padding: 10px;
+    width: 65px;
+    height: 34px;
+   text-align: -webkit-center;
+}
+.don{
+          margin: 306px;
+  
+    display: initial;
+}
+.butimg1 {
+     width: 35px;
+    height: 29px;;
+}
+.butimg2{
+      width: 35px;
+      height: 29px;
+          margin: -5px;
+}
+.butkeyboard {
+              margin: 22px;
+              padding: 5px;
+              width: 48px;
+              height: 29px;
+}
+.butsettings{
+         margin: 0px;
+          padding: 5px;
+           width: 56px;
+            height: 29px;
+}
+.compose{
+        margin: 15px;
+    padding: 2px;
+    width: 107px;
+    height: 36px
+}
+
+.list{
+
+      display: inline;
+    text-transform: inherit;
+    text-indent: 34px
+}
+
+.hr1{
+    width: 79px;
+    /*height: 100;*/
+    margin: -6px;
+    padding: 35px;
+
+}
+
+.center{
+        margin: 25px;
+    padding: 123px;
+    margin-top: -377px;
+    width: 1197px;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+ul.tab li {float: left;}
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.tab li a:hover {
+    background-color: #ddd;
+}                         
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+
+
+tr{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
