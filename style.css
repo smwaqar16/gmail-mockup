@@ -23,9 +23,9 @@ input{
      height: 32px;
 }
 img{
-    width: 24px;
+        width: 13px;
     height: 20px;
-    margin: -5px;
+    margin: -6px;
 }
 .imgtop{
       
@@ -98,14 +98,14 @@ img{
 
 .list{
 
-      display: inline;
+ display: inline;
     text-transform: inherit;
     text-indent: 34px
 }
-
-.hr1{
+ 
+ .hr1{
     width: 79px;
-    /*height: 100;*/
+ 
     margin: -6px;
     padding: 35px;
 
@@ -135,7 +135,7 @@ ul.tab li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
-}
+ }
 ul.tab li a:hover {
     background-color: #ddd;
 }                         
@@ -144,38 +144,32 @@ ul.tab li a:focus, .active {
 }
 .tabcontent {
     display: none;
-    padding: 6px 12px;
+    padding: 10px 12px;
     border: 1px solid #ccc;
     border-top: none;
 }
 
+.google {
+           display: table;
+    margin: -11px 9px;
+    padding: 0px
+} 
+td {
+         margin: 60px;
+    padding: 8px;
+    width: 345px
 
+    }
 
+.Sent{
+     width: 702px;
 
-
-tr{
-    margin: 10px;
-    padding: 10px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.Nov27{
+    margin: 10PX;
+}
 
 
 
